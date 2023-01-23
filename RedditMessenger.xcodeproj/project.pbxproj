@@ -9,23 +9,36 @@
 /* Begin PBXBuildFile section */
 		F9A761C42975CF63003DE6F8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9A761C32975CF63003DE6F8 /* AppDelegate.swift */; };
 		F9A761C62975CF63003DE6F8 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9A761C52975CF63003DE6F8 /* SceneDelegate.swift */; };
-		F9A761C82975CF63003DE6F8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9A761C72975CF63003DE6F8 /* ViewController.swift */; };
-		F9A761CB2975CF63003DE6F8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F9A761C92975CF63003DE6F8 /* Main.storyboard */; };
+		F9A761C82975CF63003DE6F8 /* LaunchScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9A761C72975CF63003DE6F8 /* LaunchScreenViewController.swift */; };
 		F9A761CE2975CF63003DE6F8 /* RedditMessenger.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = F9A761CC2975CF63003DE6F8 /* RedditMessenger.xcdatamodeld */; };
 		F9A761D02975CF65003DE6F8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F9A761CF2975CF65003DE6F8 /* Assets.xcassets */; };
 		F9A761D32975CF65003DE6F8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F9A761D12975CF65003DE6F8 /* LaunchScreen.storyboard */; };
+		F9A761DC297700B3003DE6F8 /* Router.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9A761DB297700B3003DE6F8 /* Router.swift */; };
+		F9A761DE297700C6003DE6F8 /* AssemblyBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9A761DD297700C6003DE6F8 /* AssemblyBuilder.swift */; };
+		F9A761E1297709AF003DE6F8 /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = F9A761E0297709AF003DE6F8 /* SnapKit */; };
+		F9A761E529770B17003DE6F8 /* SignInView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9A761E429770B17003DE6F8 /* SignInView.swift */; };
+		F9A761E729770C8D003DE6F8 /* LaunchScreenPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9A761E629770C8D003DE6F8 /* LaunchScreenPresenter.swift */; };
+		F9A761E92979930D003DE6F8 /* SignInController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9A761E82979930D003DE6F8 /* SignInController.swift */; };
+		F9A761EC2979A580003DE6F8 /* AuthorizationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9A761EB2979A580003DE6F8 /* AuthorizationViewController.swift */; };
+		F9A761EE2979A5BA003DE6F8 /* AuthorizationPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9A761ED2979A5BA003DE6F8 /* AuthorizationPresenter.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		F9A761C02975CF63003DE6F8 /* RedditMessenger.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RedditMessenger.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F9A761C32975CF63003DE6F8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F9A761C52975CF63003DE6F8 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		F9A761C72975CF63003DE6F8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		F9A761CA2975CF63003DE6F8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F9A761C72975CF63003DE6F8 /* LaunchScreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchScreenViewController.swift; sourceTree = "<group>"; };
 		F9A761CD2975CF63003DE6F8 /* RedditMessenger.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = RedditMessenger.xcdatamodel; sourceTree = "<group>"; };
 		F9A761CF2975CF65003DE6F8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F9A761D22975CF65003DE6F8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F9A761D42975CF65003DE6F8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F9A761DB297700B3003DE6F8 /* Router.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Router.swift; sourceTree = "<group>"; };
+		F9A761DD297700C6003DE6F8 /* AssemblyBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AssemblyBuilder.swift; sourceTree = "<group>"; };
+		F9A761E429770B17003DE6F8 /* SignInView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInView.swift; sourceTree = "<group>"; };
+		F9A761E629770C8D003DE6F8 /* LaunchScreenPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchScreenPresenter.swift; sourceTree = "<group>"; };
+		F9A761E82979930D003DE6F8 /* SignInController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInController.swift; sourceTree = "<group>"; };
+		F9A761EB2979A580003DE6F8 /* AuthorizationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthorizationViewController.swift; sourceTree = "<group>"; };
+		F9A761ED2979A5BA003DE6F8 /* AuthorizationPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthorizationPresenter.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,6 +46,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F9A761E1297709AF003DE6F8 /* SnapKit in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -58,16 +72,54 @@
 		F9A761C22975CF63003DE6F8 /* RedditMessenger */ = {
 			isa = PBXGroup;
 			children = (
+				F9A761EA2979A52B003DE6F8 /* AuthorisationModule */,
+				F9A761E329770A78003DE6F8 /* SignInModule */,
+				F9A761E229770A24003DE6F8 /* LaunchScreenModule */,
+				F9A761DA297700A8003DE6F8 /* Router */,
 				F9A761C32975CF63003DE6F8 /* AppDelegate.swift */,
 				F9A761C52975CF63003DE6F8 /* SceneDelegate.swift */,
-				F9A761C72975CF63003DE6F8 /* ViewController.swift */,
-				F9A761C92975CF63003DE6F8 /* Main.storyboard */,
 				F9A761CF2975CF65003DE6F8 /* Assets.xcassets */,
-				F9A761D12975CF65003DE6F8 /* LaunchScreen.storyboard */,
 				F9A761D42975CF65003DE6F8 /* Info.plist */,
 				F9A761CC2975CF63003DE6F8 /* RedditMessenger.xcdatamodeld */,
 			);
 			path = RedditMessenger;
+			sourceTree = "<group>";
+		};
+		F9A761DA297700A8003DE6F8 /* Router */ = {
+			isa = PBXGroup;
+			children = (
+				F9A761DB297700B3003DE6F8 /* Router.swift */,
+				F9A761DD297700C6003DE6F8 /* AssemblyBuilder.swift */,
+			);
+			path = Router;
+			sourceTree = "<group>";
+		};
+		F9A761E229770A24003DE6F8 /* LaunchScreenModule */ = {
+			isa = PBXGroup;
+			children = (
+				F9A761C72975CF63003DE6F8 /* LaunchScreenViewController.swift */,
+				F9A761D12975CF65003DE6F8 /* LaunchScreen.storyboard */,
+				F9A761E629770C8D003DE6F8 /* LaunchScreenPresenter.swift */,
+			);
+			path = LaunchScreenModule;
+			sourceTree = "<group>";
+		};
+		F9A761E329770A78003DE6F8 /* SignInModule */ = {
+			isa = PBXGroup;
+			children = (
+				F9A761E429770B17003DE6F8 /* SignInView.swift */,
+				F9A761E82979930D003DE6F8 /* SignInController.swift */,
+			);
+			path = SignInModule;
+			sourceTree = "<group>";
+		};
+		F9A761EA2979A52B003DE6F8 /* AuthorisationModule */ = {
+			isa = PBXGroup;
+			children = (
+				F9A761EB2979A580003DE6F8 /* AuthorizationViewController.swift */,
+				F9A761ED2979A5BA003DE6F8 /* AuthorizationPresenter.swift */,
+			);
+			path = AuthorisationModule;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -86,6 +138,9 @@
 			dependencies = (
 			);
 			name = RedditMessenger;
+			packageProductDependencies = (
+				F9A761E0297709AF003DE6F8 /* SnapKit */,
+			);
 			productName = RedditMessenger;
 			productReference = F9A761C02975CF63003DE6F8 /* RedditMessenger.app */;
 			productType = "com.apple.product-type.application";
@@ -114,6 +169,9 @@
 				Base,
 			);
 			mainGroup = F9A761B72975CF63003DE6F8;
+			packageReferences = (
+				F9A761DF297709AF003DE6F8 /* XCRemoteSwiftPackageReference "SnapKit" */,
+			);
 			productRefGroup = F9A761C12975CF63003DE6F8 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -130,7 +188,6 @@
 			files = (
 				F9A761D32975CF65003DE6F8 /* LaunchScreen.storyboard in Resources */,
 				F9A761D02975CF65003DE6F8 /* Assets.xcassets in Resources */,
-				F9A761CB2975CF63003DE6F8 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -141,24 +198,23 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F9A761C82975CF63003DE6F8 /* ViewController.swift in Sources */,
+				F9A761E529770B17003DE6F8 /* SignInView.swift in Sources */,
+				F9A761E729770C8D003DE6F8 /* LaunchScreenPresenter.swift in Sources */,
+				F9A761C82975CF63003DE6F8 /* LaunchScreenViewController.swift in Sources */,
+				F9A761EC2979A580003DE6F8 /* AuthorizationViewController.swift in Sources */,
+				F9A761E92979930D003DE6F8 /* SignInController.swift in Sources */,
 				F9A761CE2975CF63003DE6F8 /* RedditMessenger.xcdatamodeld in Sources */,
+				F9A761DC297700B3003DE6F8 /* Router.swift in Sources */,
 				F9A761C42975CF63003DE6F8 /* AppDelegate.swift in Sources */,
 				F9A761C62975CF63003DE6F8 /* SceneDelegate.swift in Sources */,
+				F9A761DE297700C6003DE6F8 /* AssemblyBuilder.swift in Sources */,
+				F9A761EE2979A5BA003DE6F8 /* AuthorizationPresenter.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		F9A761C92975CF63003DE6F8 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				F9A761CA2975CF63003DE6F8 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		F9A761D12975CF65003DE6F8 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -296,7 +352,6 @@
 				INFOPLIST_FILE = RedditMessenger/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -324,7 +379,6 @@
 				INFOPLIST_FILE = RedditMessenger/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -362,6 +416,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		F9A761DF297709AF003DE6F8 /* XCRemoteSwiftPackageReference "SnapKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SnapKit/SnapKit?ysclid=lbrpj6ux8j405663939";
+			requirement = {
+				branch = develop;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		F9A761E0297709AF003DE6F8 /* SnapKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F9A761DF297709AF003DE6F8 /* XCRemoteSwiftPackageReference "SnapKit" */;
+			productName = SnapKit;
+		};
+/* End XCSwiftPackageProductDependency section */
 
 /* Begin XCVersionGroup section */
 		F9A761CC2975CF63003DE6F8 /* RedditMessenger.xcdatamodeld */ = {
