@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5EBCFBF829804E840094CEF9 /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EBCFBF729804E840094CEF9 /* TabBarController.swift */; };
 		F9A761C42975CF63003DE6F8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9A761C32975CF63003DE6F8 /* AppDelegate.swift */; };
 		F9A761C62975CF63003DE6F8 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9A761C52975CF63003DE6F8 /* SceneDelegate.swift */; };
 		F9A761C82975CF63003DE6F8 /* LaunchScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9A761C72975CF63003DE6F8 /* LaunchScreenViewController.swift */; };
@@ -24,6 +25,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		5EBCFBF729804E840094CEF9 /* TabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
 		F9A761C02975CF63003DE6F8 /* RedditMessenger.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RedditMessenger.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F9A761C32975CF63003DE6F8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F9A761C52975CF63003DE6F8 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -53,6 +55,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5EBCFBF629804E760094CEF9 /* TabBar */ = {
+			isa = PBXGroup;
+			children = (
+				5EBCFBF729804E840094CEF9 /* TabBarController.swift */,
+			);
+			path = TabBar;
+			sourceTree = "<group>";
+		};
 		F9A761B72975CF63003DE6F8 = {
 			isa = PBXGroup;
 			children = (
@@ -72,6 +82,7 @@
 		F9A761C22975CF63003DE6F8 /* RedditMessenger */ = {
 			isa = PBXGroup;
 			children = (
+				5EBCFBF629804E760094CEF9 /* TabBar */,
 				F9A761EA2979A52B003DE6F8 /* AuthorisationModule */,
 				F9A761E329770A78003DE6F8 /* SignInModule */,
 				F9A761E229770A24003DE6F8 /* LaunchScreenModule */,
@@ -207,6 +218,7 @@
 				F9A761DC297700B3003DE6F8 /* Router.swift in Sources */,
 				F9A761C42975CF63003DE6F8 /* AppDelegate.swift in Sources */,
 				F9A761C62975CF63003DE6F8 /* SceneDelegate.swift in Sources */,
+				5EBCFBF829804E840094CEF9 /* TabBarController.swift in Sources */,
 				F9A761DE297700C6003DE6F8 /* AssemblyBuilder.swift in Sources */,
 				F9A761EE2979A5BA003DE6F8 /* AuthorizationPresenter.swift in Sources */,
 			);
