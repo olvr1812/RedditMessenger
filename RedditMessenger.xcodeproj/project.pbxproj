@@ -15,6 +15,7 @@
 		5E5FF1C229865A1100DB0B61 /* ParameterEncoderProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E5FF1C129865A1100DB0B61 /* ParameterEncoderProtocol.swift */; };
 		5E5FF1C429865A2300DB0B61 /* URLParameterEncoder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E5FF1C329865A2300DB0B61 /* URLParameterEncoder.swift */; };
 		5E5FF1C629865A3400DB0B61 /* JSONParameterEncoder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E5FF1C529865A3400DB0B61 /* JSONParameterEncoder.swift */; };
+		5E5FF1CE29865BFD00DB0B61 /* ErrorsAndResponses.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E5FF1CD29865BFD00DB0B61 /* ErrorsAndResponses.swift */; };
 		F9A761C42975CF63003DE6F8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9A761C32975CF63003DE6F8 /* AppDelegate.swift */; };
 		F9A761C62975CF63003DE6F8 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9A761C52975CF63003DE6F8 /* SceneDelegate.swift */; };
 		F9A761C82975CF63003DE6F8 /* LaunchScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9A761C72975CF63003DE6F8 /* LaunchScreenViewController.swift */; };
@@ -40,6 +41,7 @@
 		5E5FF1C129865A1100DB0B61 /* ParameterEncoderProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParameterEncoderProtocol.swift; sourceTree = "<group>"; };
 		5E5FF1C329865A2300DB0B61 /* URLParameterEncoder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLParameterEncoder.swift; sourceTree = "<group>"; };
 		5E5FF1C529865A3400DB0B61 /* JSONParameterEncoder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JSONParameterEncoder.swift; sourceTree = "<group>"; };
+		5E5FF1CD29865BFD00DB0B61 /* ErrorsAndResponses.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorsAndResponses.swift; sourceTree = "<group>"; };
 		F9A761C02975CF63003DE6F8 /* RedditMessenger.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RedditMessenger.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F9A761C32975CF63003DE6F8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F9A761C52975CF63003DE6F8 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -72,6 +74,7 @@
 		5E5FF1B2298658B900DB0B61 /* NetworkLayer */ = {
 			isa = PBXGroup;
 			children = (
+				5E5FF1CD29865BFD00DB0B61 /* ErrorsAndResponses.swift */,
 				5E5FF1B3298658C700DB0B61 /* Manager */,
 				5E5FF1B6298658F400DB0B61 /* EndPoint */,
 				5E5FF1B5298658EA00DB0B61 /* Encoding */,
@@ -275,6 +278,7 @@
 				F9A761C42975CF63003DE6F8 /* AppDelegate.swift in Sources */,
 				F9A761C62975CF63003DE6F8 /* SceneDelegate.swift in Sources */,
 				5E5FF1BC2986597C00DB0B61 /* HttpTask.swift in Sources */,
+				5E5FF1CE29865BFD00DB0B61 /* ErrorsAndResponses.swift in Sources */,
 				5E5FF1BE2986598800DB0B61 /* HttpHeaders.swift in Sources */,
 				F9A761DE297700C6003DE6F8 /* AssemblyBuilder.swift in Sources */,
 				5E5FF1B82986595400DB0B61 /* EndPointTypeProtocol.swift in Sources */,
