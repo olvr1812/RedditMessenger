@@ -11,6 +11,10 @@
 		5E5FF1BA2986597100DB0B61 /* HttpMethod.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E5FF1B92986597100DB0B61 /* HttpMethod.swift */; };
 		5E5FF1BC2986597C00DB0B61 /* HttpTask.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E5FF1BB2986597C00DB0B61 /* HttpTask.swift */; };
 		5E5FF1BE2986598800DB0B61 /* HttpHeaders.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E5FF1BD2986598800DB0B61 /* HttpHeaders.swift */; };
+		5E5FF1C0298659FC00DB0B61 /* Parameters.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E5FF1BF298659FC00DB0B61 /* Parameters.swift */; };
+		5E5FF1C229865A1100DB0B61 /* ParameterEncoderProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E5FF1C129865A1100DB0B61 /* ParameterEncoderProtocol.swift */; };
+		5E5FF1C429865A2300DB0B61 /* URLParameterEncoder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E5FF1C329865A2300DB0B61 /* URLParameterEncoder.swift */; };
+		5E5FF1C629865A3400DB0B61 /* JSONParameterEncoder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E5FF1C529865A3400DB0B61 /* JSONParameterEncoder.swift */; };
 		F9A761C42975CF63003DE6F8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9A761C32975CF63003DE6F8 /* AppDelegate.swift */; };
 		F9A761C62975CF63003DE6F8 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9A761C52975CF63003DE6F8 /* SceneDelegate.swift */; };
 		F9A761C82975CF63003DE6F8 /* LaunchScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9A761C72975CF63003DE6F8 /* LaunchScreenViewController.swift */; };
@@ -32,6 +36,10 @@
 		5E5FF1B92986597100DB0B61 /* HttpMethod.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HttpMethod.swift; sourceTree = "<group>"; };
 		5E5FF1BB2986597C00DB0B61 /* HttpTask.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HttpTask.swift; sourceTree = "<group>"; };
 		5E5FF1BD2986598800DB0B61 /* HttpHeaders.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HttpHeaders.swift; sourceTree = "<group>"; };
+		5E5FF1BF298659FC00DB0B61 /* Parameters.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Parameters.swift; sourceTree = "<group>"; };
+		5E5FF1C129865A1100DB0B61 /* ParameterEncoderProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParameterEncoderProtocol.swift; sourceTree = "<group>"; };
+		5E5FF1C329865A2300DB0B61 /* URLParameterEncoder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLParameterEncoder.swift; sourceTree = "<group>"; };
+		5E5FF1C529865A3400DB0B61 /* JSONParameterEncoder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JSONParameterEncoder.swift; sourceTree = "<group>"; };
 		F9A761C02975CF63003DE6F8 /* RedditMessenger.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RedditMessenger.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F9A761C32975CF63003DE6F8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F9A761C52975CF63003DE6F8 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -93,6 +101,10 @@
 		5E5FF1B5298658EA00DB0B61 /* Encoding */ = {
 			isa = PBXGroup;
 			children = (
+				5E5FF1BF298659FC00DB0B61 /* Parameters.swift */,
+				5E5FF1C129865A1100DB0B61 /* ParameterEncoderProtocol.swift */,
+				5E5FF1C329865A2300DB0B61 /* URLParameterEncoder.swift */,
+				5E5FF1C529865A3400DB0B61 /* JSONParameterEncoder.swift */,
 			);
 			path = Encoding;
 			sourceTree = "<group>";
@@ -253,10 +265,12 @@
 				F9A761E529770B17003DE6F8 /* SignInView.swift in Sources */,
 				F9A761E729770C8D003DE6F8 /* LaunchScreenPresenter.swift in Sources */,
 				5E5FF1BA2986597100DB0B61 /* HttpMethod.swift in Sources */,
+				5E5FF1C229865A1100DB0B61 /* ParameterEncoderProtocol.swift in Sources */,
 				F9A761C82975CF63003DE6F8 /* LaunchScreenViewController.swift in Sources */,
 				F9A761EC2979A580003DE6F8 /* AuthorizationViewController.swift in Sources */,
 				F9A761E92979930D003DE6F8 /* SignInController.swift in Sources */,
 				F9A761CE2975CF63003DE6F8 /* RedditMessenger.xcdatamodeld in Sources */,
+				5E5FF1C429865A2300DB0B61 /* URLParameterEncoder.swift in Sources */,
 				F9A761DC297700B3003DE6F8 /* Router.swift in Sources */,
 				F9A761C42975CF63003DE6F8 /* AppDelegate.swift in Sources */,
 				F9A761C62975CF63003DE6F8 /* SceneDelegate.swift in Sources */,
@@ -265,6 +279,8 @@
 				F9A761DE297700C6003DE6F8 /* AssemblyBuilder.swift in Sources */,
 				5E5FF1B82986595400DB0B61 /* EndPointTypeProtocol.swift in Sources */,
 				F9A761EE2979A5BA003DE6F8 /* AuthorizationPresenter.swift in Sources */,
+				5E5FF1C0298659FC00DB0B61 /* Parameters.swift in Sources */,
+				5E5FF1C629865A3400DB0B61 /* JSONParameterEncoder.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
