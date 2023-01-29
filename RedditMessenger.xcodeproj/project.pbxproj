@@ -16,6 +16,9 @@
 		5E5FF1C429865A2300DB0B61 /* URLParameterEncoder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E5FF1C329865A2300DB0B61 /* URLParameterEncoder.swift */; };
 		5E5FF1C629865A3400DB0B61 /* JSONParameterEncoder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E5FF1C529865A3400DB0B61 /* JSONParameterEncoder.swift */; };
 		5E5FF1CE29865BFD00DB0B61 /* ErrorsAndResponses.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E5FF1CD29865BFD00DB0B61 /* ErrorsAndResponses.swift */; };
+		5E5FF1D029865CBA00DB0B61 /* NetworkRouterProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E5FF1CF29865CBA00DB0B61 /* NetworkRouterProtocol.swift */; };
+		5E5FF1D229865CCE00DB0B61 /* NetworkRouterCompletion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E5FF1D129865CCE00DB0B61 /* NetworkRouterCompletion.swift */; };
+		5E5FF1D429865CE000DB0B61 /* NetworkRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E5FF1D329865CE000DB0B61 /* NetworkRouter.swift */; };
 		F9A761C42975CF63003DE6F8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9A761C32975CF63003DE6F8 /* AppDelegate.swift */; };
 		F9A761C62975CF63003DE6F8 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9A761C52975CF63003DE6F8 /* SceneDelegate.swift */; };
 		F9A761C82975CF63003DE6F8 /* LaunchScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9A761C72975CF63003DE6F8 /* LaunchScreenViewController.swift */; };
@@ -42,6 +45,9 @@
 		5E5FF1C329865A2300DB0B61 /* URLParameterEncoder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLParameterEncoder.swift; sourceTree = "<group>"; };
 		5E5FF1C529865A3400DB0B61 /* JSONParameterEncoder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JSONParameterEncoder.swift; sourceTree = "<group>"; };
 		5E5FF1CD29865BFD00DB0B61 /* ErrorsAndResponses.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorsAndResponses.swift; sourceTree = "<group>"; };
+		5E5FF1CF29865CBA00DB0B61 /* NetworkRouterProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkRouterProtocol.swift; sourceTree = "<group>"; };
+		5E5FF1D129865CCE00DB0B61 /* NetworkRouterCompletion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkRouterCompletion.swift; sourceTree = "<group>"; };
+		5E5FF1D329865CE000DB0B61 /* NetworkRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkRouter.swift; sourceTree = "<group>"; };
 		F9A761C02975CF63003DE6F8 /* RedditMessenger.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RedditMessenger.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F9A761C32975CF63003DE6F8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F9A761C52975CF63003DE6F8 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -97,6 +103,9 @@
 				5E5FF1B92986597100DB0B61 /* HttpMethod.swift */,
 				5E5FF1BB2986597C00DB0B61 /* HttpTask.swift */,
 				5E5FF1BD2986598800DB0B61 /* HttpHeaders.swift */,
+				5E5FF1CF29865CBA00DB0B61 /* NetworkRouterProtocol.swift */,
+				5E5FF1D129865CCE00DB0B61 /* NetworkRouterCompletion.swift */,
+				5E5FF1D329865CE000DB0B61 /* NetworkRouter.swift */,
 			);
 			path = Service;
 			sourceTree = "<group>";
@@ -265,8 +274,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5E5FF1D029865CBA00DB0B61 /* NetworkRouterProtocol.swift in Sources */,
 				F9A761E529770B17003DE6F8 /* SignInView.swift in Sources */,
 				F9A761E729770C8D003DE6F8 /* LaunchScreenPresenter.swift in Sources */,
+				5E5FF1D429865CE000DB0B61 /* NetworkRouter.swift in Sources */,
 				5E5FF1BA2986597100DB0B61 /* HttpMethod.swift in Sources */,
 				5E5FF1C229865A1100DB0B61 /* ParameterEncoderProtocol.swift in Sources */,
 				F9A761C82975CF63003DE6F8 /* LaunchScreenViewController.swift in Sources */,
@@ -281,6 +292,7 @@
 				5E5FF1CE29865BFD00DB0B61 /* ErrorsAndResponses.swift in Sources */,
 				5E5FF1BE2986598800DB0B61 /* HttpHeaders.swift in Sources */,
 				F9A761DE297700C6003DE6F8 /* AssemblyBuilder.swift in Sources */,
+				5E5FF1D229865CCE00DB0B61 /* NetworkRouterCompletion.swift in Sources */,
 				5E5FF1B82986595400DB0B61 /* EndPointTypeProtocol.swift in Sources */,
 				F9A761EE2979A5BA003DE6F8 /* AuthorizationPresenter.swift in Sources */,
 				5E5FF1C0298659FC00DB0B61 /* Parameters.swift in Sources */,
