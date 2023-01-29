@@ -53,6 +53,45 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5E5FF1B2298658B900DB0B61 /* NetworkLayer */ = {
+			isa = PBXGroup;
+			children = (
+				5E5FF1B3298658C700DB0B61 /* Manager */,
+				5E5FF1B6298658F400DB0B61 /* EndPoint */,
+				5E5FF1B5298658EA00DB0B61 /* Encoding */,
+				5E5FF1B4298658E300DB0B61 /* Service */,
+			);
+			path = NetworkLayer;
+			sourceTree = "<group>";
+		};
+		5E5FF1B3298658C700DB0B61 /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Manager;
+			sourceTree = "<group>";
+		};
+		5E5FF1B4298658E300DB0B61 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		5E5FF1B5298658EA00DB0B61 /* Encoding */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Encoding;
+			sourceTree = "<group>";
+		};
+		5E5FF1B6298658F400DB0B61 /* EndPoint */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = EndPoint;
+			sourceTree = "<group>";
+		};
 		F9A761B72975CF63003DE6F8 = {
 			isa = PBXGroup;
 			children = (
@@ -72,6 +111,7 @@
 		F9A761C22975CF63003DE6F8 /* RedditMessenger */ = {
 			isa = PBXGroup;
 			children = (
+				5E5FF1B2298658B900DB0B61 /* NetworkLayer */,
 				F9A761EA2979A52B003DE6F8 /* AuthorisationModule */,
 				F9A761E329770A78003DE6F8 /* SignInModule */,
 				F9A761E229770A24003DE6F8 /* LaunchScreenModule */,
