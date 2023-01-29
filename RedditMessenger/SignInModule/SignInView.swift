@@ -10,6 +10,7 @@ import UIKit
 
 protocol SignInputProtocol: AnyObject {
     func segueToAuthorisationScreen(selector: Selector)
+    func segueToTabBar(selector: Selector)
 }
 
 class SignInView: UIView {
@@ -30,7 +31,7 @@ class SignInView: UIView {
 
     private lazy var signInRedditButton: UIButton = {
         let button = UIButton()
-        button.setTitle("Sign in with VK", for: .normal)
+        button.setTitle("Sign in with Reddit", for: .normal)
         button.setTitleColor(.white, for: .normal)
         button.layer.cornerRadius = 20
         button.backgroundColor = .black
@@ -91,6 +92,10 @@ class SignInView: UIView {
 }
 
 extension SignInView: SignInputProtocol {
+    func segueToTabBar(selector: Selector) {
+        signInRedditButton.addTarget(Any.self, action: selector, for: .touchUpInside)
+    }
+    
     func segueToAuthorisationScreen(selector: Selector) {
         signInUsernameButton.addTarget(Any.self, action: selector, for: .touchUpInside)
     }

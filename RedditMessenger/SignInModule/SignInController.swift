@@ -15,6 +15,7 @@ class SignInController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         delegate?.segueToAuthorisationScreen(selector: #selector(signInReddit))
+        delegate?.segueToTabBar(selector: #selector(segueToTabBar))
     }
     
     override func loadView() {
@@ -31,5 +32,11 @@ class SignInController: UIViewController {
     @objc private func signInReddit() {
         let authorizationController = AssemblyBuilder.createAuthorizationController()
         present(authorizationController, animated: true)
+    }
+    
+    @objc private func segueToTabBar() {
+        let profileViewController = AssemblyBuilder.createProfileViewController()
+        profileViewController.modalPresentationStyle = .fullScreen
+        present(profileViewController, animated: true)
     }
 }

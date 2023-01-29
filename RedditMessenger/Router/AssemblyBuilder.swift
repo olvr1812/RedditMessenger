@@ -11,9 +11,34 @@ import UIKit
 protocol AssemblyBuilderProtocol: AnyObject {
     static func createLaunchScreenModule() -> UIViewController
     static func createSignInController() -> UIViewController
+    static func createAuthorizationController() -> UIViewController
+    static func createEditeProfileViewController() -> UIViewController
+    static func createTabBarController() -> UITabBarController
+    static func createProfileViewController() -> UINavigationController
 }
 
 class AssemblyBuilder: AssemblyBuilderProtocol {
+    
+    static func createProfileViewController() -> UINavigationController {
+        let profileViewController = ProfileViewController()
+        let presenter = ProfilePresenter(view: profileViewController)
+        profileViewController.presenter = presenter
+        profileViewController.tabBarItem = UITabBarItem(title: "Friends", image: UIImage(systemName: "person.2"), selectedImage: UIImage(systemName: "person.2.fill"))
+        let navigationController = UINavigationController(rootViewController: profileViewController)
+        navigationController.modalPresentationStyle = .fullScreen
+        return navigationController
+    }
+    
+    static func createEditeProfileViewController() -> UIViewController {
+        let editProfileViewController = EditProfileViewController()
+        let presenter = EditProfilePresenter(view: editProfileViewController)
+        editProfileViewController.presenter = presenter
+        editProfileViewController.modalPresentationStyle = .fullScreen
+        editProfileViewController.modalTransitionStyle = .coverVertical
+        return editProfileViewController
+    }
+
+    
     
     static func createLaunchScreenModule() -> UIViewController {
         let view = LaunchScreenViewController()
@@ -33,5 +58,11 @@ class AssemblyBuilder: AssemblyBuilderProtocol {
         let view = AuthorizationViewController()
         view.modalPresentationStyle = .formSheet
         return view
+    }
+    
+    static func createTabBarController() -> UITabBarController {
+        let taBarViewController = UITabBarController()
+        taBarViewController.modalPresentationStyle = .fullScreen
+        return taBarViewController
     }
 }
