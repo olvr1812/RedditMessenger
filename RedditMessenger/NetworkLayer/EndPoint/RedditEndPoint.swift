@@ -48,7 +48,7 @@ extension RedditApi: EndPointTypeProtocol {
     }
     
     var headers: HttpHeaders? {
-        guard let token = UserDefaultsStorage.shared.userToken else { return nil }
+        let token = "Acces Token" // need set access_token
         return ["Authorization": "Bearer \(token)"]
     }
 }
