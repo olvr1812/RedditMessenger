@@ -2,7 +2,7 @@
 //  Constants.swift
 //  RedditMessenger
 //
-//  Created by Георгий Матченко on 30.01.2023.
+//  Created by Георгий Матченко on 24.01.2023.
 //
 
 import Foundation
