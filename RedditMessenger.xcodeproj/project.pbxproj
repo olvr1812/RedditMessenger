@@ -22,6 +22,7 @@
 		5E5FF1D629865D7900DB0B61 /* RedditEndPoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E5FF1D529865D7900DB0B61 /* RedditEndPoint.swift */; };
 		5E5FF1D829865DAD00DB0B61 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E5FF1D729865DAD00DB0B61 /* NetworkManager.swift */; };
 		5E6B466F298830F4005EA840 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E6B466E298830F4005EA840 /* Constants.swift */; };
+		5E6B466C29882D98005EA840 /* StorageManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E6B466B29882D98005EA840 /* StorageManager.swift */; };
 		F9A761C42975CF63003DE6F8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9A761C32975CF63003DE6F8 /* AppDelegate.swift */; };
 		F9A761C62975CF63003DE6F8 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9A761C52975CF63003DE6F8 /* SceneDelegate.swift */; };
 		F9A761C82975CF63003DE6F8 /* LaunchScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9A761C72975CF63003DE6F8 /* LaunchScreenViewController.swift */; };
@@ -54,6 +55,7 @@
 		5E5FF1D529865D7900DB0B61 /* RedditEndPoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RedditEndPoint.swift; sourceTree = "<group>"; };
 		5E5FF1D729865DAD00DB0B61 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
 		5E6B466E298830F4005EA840 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		5E6B466B29882D98005EA840 /* StorageManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StorageManager.swift; sourceTree = "<group>"; };
 		F9A761C02975CF63003DE6F8 /* RedditMessenger.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RedditMessenger.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F9A761C32975CF63003DE6F8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F9A761C52975CF63003DE6F8 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -165,6 +167,7 @@
 			children = (
 				5E6B466D298830E7005EA840 /* Helper */,
 				5E5FF1B2298658B900DB0B61 /* NetworkLayer */,
+				5E6B466B29882D98005EA840 /* StorageManager.swift */,
 				F9A761EA2979A52B003DE6F8 /* AuthorisationModule */,
 				F9A761E329770A78003DE6F8 /* SignInModule */,
 				F9A761E229770A24003DE6F8 /* LaunchScreenModule */,
@@ -317,6 +320,7 @@
 				5E5FF1D829865DAD00DB0B61 /* NetworkManager.swift in Sources */,
 				5E5FF1C0298659FC00DB0B61 /* Parameters.swift in Sources */,
 				5E5FF1C629865A3400DB0B61 /* JSONParameterEncoder.swift in Sources */,
+				5E6B466C29882D98005EA840 /* StorageManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
