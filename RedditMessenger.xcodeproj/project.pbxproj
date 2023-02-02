@@ -24,6 +24,7 @@
 		5E6B466C29882D98005EA840 /* StorageManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E6B466B29882D98005EA840 /* StorageManager.swift */; };
 		5E6B466F298830F4005EA840 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E6B466E298830F4005EA840 /* Constants.swift */; };
 		5E6B4675298AD900005EA840 /* KeyboardNotification.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E6B4674298AD900005EA840 /* KeyboardNotification.swift */; };
+		5E6B467A298BBDCE005EA840 /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E6B4679298BBDCE005EA840 /* TabBarController.swift */; };
 		F9A761C42975CF63003DE6F8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9A761C32975CF63003DE6F8 /* AppDelegate.swift */; };
 		F9A761C62975CF63003DE6F8 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9A761C52975CF63003DE6F8 /* SceneDelegate.swift */; };
 		F9A761C82975CF63003DE6F8 /* LaunchScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9A761C72975CF63003DE6F8 /* LaunchScreenViewController.swift */; };
@@ -58,6 +59,7 @@
 		5E6B466B29882D98005EA840 /* StorageManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StorageManager.swift; sourceTree = "<group>"; };
 		5E6B466E298830F4005EA840 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		5E6B4674298AD900005EA840 /* KeyboardNotification.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyboardNotification.swift; sourceTree = "<group>"; };
+		5E6B4679298BBDCE005EA840 /* TabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
 		F9A761C02975CF63003DE6F8 /* RedditMessenger.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RedditMessenger.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F9A761C32975CF63003DE6F8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F9A761C52975CF63003DE6F8 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -149,6 +151,14 @@
 			path = Helper;
 			sourceTree = "<group>";
 		};
+		5E6B4678298BBDB6005EA840 /* TabBar */ = {
+			isa = PBXGroup;
+			children = (
+				5E6B4679298BBDCE005EA840 /* TabBarController.swift */,
+			);
+			path = TabBar;
+			sourceTree = "<group>";
+		};
 		F9A761B72975CF63003DE6F8 = {
 			isa = PBXGroup;
 			children = (
@@ -168,6 +178,7 @@
 		F9A761C22975CF63003DE6F8 /* RedditMessenger */ = {
 			isa = PBXGroup;
 			children = (
+				5E6B4678298BBDB6005EA840 /* TabBar */,
 				5E6B466D298830E7005EA840 /* Helper */,
 				5E5FF1B2298658B900DB0B61 /* NetworkLayer */,
 				5E6B466B29882D98005EA840 /* StorageManager.swift */,
@@ -320,6 +331,7 @@
 				F9A761DE297700C6003DE6F8 /* AssemblyBuilder.swift in Sources */,
 				5E5FF1D229865CCE00DB0B61 /* NetworkRouterCompletion.swift in Sources */,
 				5E5FF1B82986595400DB0B61 /* EndPointTypeProtocol.swift in Sources */,
+				5E6B467A298BBDCE005EA840 /* TabBarController.swift in Sources */,
 				F9A761EE2979A5BA003DE6F8 /* AuthorizationPresenter.swift in Sources */,
 				5E5FF1D829865DAD00DB0B61 /* NetworkManager.swift in Sources */,
 				5E5FF1C0298659FC00DB0B61 /* Parameters.swift in Sources */,
